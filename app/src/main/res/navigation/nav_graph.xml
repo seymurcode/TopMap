@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mapFragment">
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.artileriya.uicomponents.map.MapsFragment"
+        android:label="fragmentMap"
+        tools:layout="@layout/fragment_maps" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.artileriya.uicomponents.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+
+        <action
+            android:id="@+id/action_menu_to_products"
+            app:destination="@id/productsFragment">
+
+        </action>
+
+        <action
+            android:id="@+id/action_menu_to_product_detail"
+            app:destination="@id/productDetail">
+
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/productsFragment"
+        android:name="com.artileriya.uicomponents.ProductsFragment"
+        android:label="fragment_products"
+        tools:layout="@layout/fragment_products" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.artileriya.uicomponents.ContactFragment"
+        android:label="fragment_contact"
+        tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.artileriya.uicomponents.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/productDetail"
+        android:name="com.artileriya.uicomponents.ProductDetail"
+        android:label="fragment_product_detail"
+        tools:layout="@layout/fragment_product_detail" >
+        <action
+            android:id="@+id/action_product_to_cart"
+            app:destination="@id/cartFragment">
+
+        </action>
+        <argument
+            android:name="nameParam"
+            app:argType="string">
+        </argument>
+
+        <argument
+            android:name="product"
+            app:argType="com.artileriya.uicomponents.Product">
+        </argument>
+    </fragment>
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.artileriya.uicomponents.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" />
+
+
+</navigation>

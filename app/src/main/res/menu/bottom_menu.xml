@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mapFragment"
+        android:icon="@drawable/ic_map"
+        android:title="Hesabatlar"></item>
+    <!--usertype 0-->
+    <!--usertype 1,2
+         hedef kimi teyin et -> hesabatlar
+        -->
+    <item
+        android:id="@+id/menuFragment"
+        android:icon="@drawable/ic_task"
+        android:title="Tapşırıq"></item>
+    <!--usertype 0,1,2
+    0 - hesablama sehifesi  duyme: icra olundu -> set done true (entered_user listening edir)
+    1 - hesablama sehifesi  duyme: gonder -> tabelikdeki 0-lar
+    3 - hesablama sehifesi  duyme: gonder -> tabelikdeki 1 ve 0-lar
+    -->
+
+    <item
+        android:id="@+id/contactFragment"
+        android:icon="@drawable/ic_weather"
+        android:title="Meteo"></item>
+    <!--usertype 0,1,2
+    0 deyisiklik ede bilmesin
+       -->
+    <item
+        android:id="@+id/aboutFragment"
+        android:icon="@drawable/ic_settings"
+        android:title="Tənzimləmələr"></item>
+    <!--usertype 0,1,2
+        0-da yalniz istifadəçi məlumatları görünür
+       -->
+</menu>

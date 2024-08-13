@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "498248149892",
+    "firebase_url": "https://sero-641df-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "sero-641df",
+    "storage_bucket": "sero-641df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498248149892:android:a112fa8d2b4a3f8e1ecbd1",
+        "android_client_info": {
+          "package_name": "com.artileriya.uicomponents"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGZ-r7x66DEsbXzDgjMnzkCqj4UpYBK4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

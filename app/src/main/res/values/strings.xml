@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UIComponents</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="nav_menu_map">Xeriteler</string>
+    <string name="nav_menu_home">Ana Səhifə</string>
+    <string name="nav_menu_products">Ürünler</string>
+    <string name="nav_menu_account">Hesabım</string>
+    <string name="nav_menu_contact">İletişim</string>
+</resources>
